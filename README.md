@@ -1,2 +1,15 @@
 # api-data-extracci-n
-Script en Python para extraer datos desde una API pública, almacenarlos en formato JSON y aplicar buenas prácticas de seguridad mediante variables de entorno.
+Extracción y Almacenamiento Seguro de Datos vía API
+Descripción
+Este proyecto realiza una extracción de datos desde la API pública JSONPlaceholder mediante una petición GET.
+
+Los datos obtenidos son procesados y almacenados en un archivo JSON estructurado.
+
+Tecnologías utilizadas
+Python
+Requests
+Python-dotenv
+Configuración
+Crear un archivo .env basado en .env.example:
+
+API_URL=https://jsonplaceholder.typicode.com/users
